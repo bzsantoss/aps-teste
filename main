@@ -1,0 +1,17 @@
+#include <time.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include "alg.h"
+#include "header.h"
+#include <conio.h>
+
+int main() {
+    MyDataGenerator(); // Chame a função principal
+
+    printf("\n-------------------------------------------\n");
+    printf("\nPressione qualquer tecla para encerrar o programa: \n");
+    printf("-------------------------------------------\n");
+    getch();
+
+    return 0; // Indique que o programa foi concluído com sucesso
+}
